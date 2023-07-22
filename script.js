@@ -19,3 +19,11 @@ closeArrows.forEach(closeArrow => {
     });
   });
 });
+
+const boo = document.getElementById('boo');
+const squeak = document.getElementById('squeak');
+
+boo.addEventListener('click', () => {
+  squeak.currentTime = 0;
+  squeak.play();
+})
