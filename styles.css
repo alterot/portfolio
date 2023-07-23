@@ -113,7 +113,7 @@ max-height: 0px;
 overflow: hidden;
 width: 80%;
 margin: 0 auto;
-transition: max-height 1s ease; 
+transition: max-height 0.5s ease; 
 }
 
 .content.visible {
@@ -238,7 +238,6 @@ transform: translateY(-10px);
 flex: 1; 
 font-size: 1rem; 
 }
-
 
 #personal-content {
 display: grid;
