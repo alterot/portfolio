@@ -134,6 +134,15 @@ transition: transform 0.3s ease;
   transform: translateY(-5px);
 }
 
+.text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
+
 #career-content {
 display: grid;
 grid-template-columns: 6fr 1fr;
@@ -164,6 +173,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 margin-bottom: 50px;
+margin-top: 25px;
 }
 
 .image-container {
