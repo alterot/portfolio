@@ -31,6 +31,15 @@ closeArrows.forEach(closeArrow => {
   });
 });
 
+const apiGif = document.getElementById('api-gif')
+fetch('https://api.giphy.com/v1/gifs/translate?api_key=zfHXPi641XGPrmE054wzQG98YIewoN6k&s=critical-role', {mode: 'cors'})
+.then(function(response) {
+  return response.json();
+})
+.then(function(response) {
+  apiGif.src = response.data.images.original.url;
+});
+
 const boo = document.getElementById('boo');
 const squeak = document.getElementById('squeak');
 

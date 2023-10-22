@@ -229,7 +229,14 @@ gap: 50px;
 width: 30%; 
 }
 
-#spellbook, #etchy {
+#api-gif {
+width: 30%;
+height: auto;
+border-radius: 0;
+transition: none;
+}
+
+#spellbook, #etchy, #api-gif-container {
 flex-direction: row-reverse;
 }
 
