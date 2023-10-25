@@ -234,9 +234,10 @@ width: 30%;
 height: auto;
 border-radius: 0;
 transition: none;
+transform: none;
 }
 
-#spellbook, #etchy, #api-gif-container {
+#api-gif-container, #tic-tac-toe {
 flex-direction: row-reverse;
 }
 
@@ -356,7 +357,7 @@ h1 {
   width: 100%; 
 }
 
-#spellbook, #etchy {
+#api-gif-container, #tic-tac-toe {
   flex-direction: column;
 }
 
