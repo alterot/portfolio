@@ -78,6 +78,10 @@
                             <p>javascript</p>
                         </div>
                         <div class="image-container">
+                            <img src="./images/typescript.png" alt="TypeScript">
+                            <p>typescript</p>
+                        </div>
+                        <div class="image-container">
                             <img src="./images/git.png" alt="Git">
                             <p>git</p>
                         </div>
@@ -107,7 +111,15 @@
                         <br><br> Also, down in the bottom left corner you'll find a link to my GitHub profile if you're interested in reviewing some of the code or exploring more of my work.
                     </p> 
                     <div class="portfolio-list">
-                        <div class="portfolio-container">
+                        <div class="portfolio-container" id="spellbook-ts">
+                            <p><b>Spellbook library TypeScript</b><br><br>I created a new version of my spellbook library. This time using TypeScript and BEM methodology for the styling 
+                                (might as well rip those band aids of already since I’ll be using TypeScript going forward). I set up an asynchronous integration with fetch() to load a local JSON file with all spell data and display the relevant spells in accordance with selected filter.
+                                <br><br>The code is modular and easily maintainable (I hope) with separate functions to handle user interactions in a clear and structured way. 
+                                
+                            </p>
+                            <a href="https://alterot.github.io/spellbook-ts/" target="_blank"><img src="./images/spellbook-ts.jpg" alt="Spellbook library TypeScript"></a>
+                        </div>
+                        <div class="portfolio-container" id="hagen">
                             <p><b>Website for a local cocktail bar</b><br><br>I developed a simple dynamic website for a local cocktail bar (very local, it is in fact, located on my porch). 
                                 <br>I developed the application using Webpack and a Single Page Application architecture to dynamically load content without full page reloads. Each page’s functionality and styling is encapsulated into separate modules, enhancing code organization and maintainability.
                             </p>
@@ -117,7 +129,7 @@
                             <p><b>Black Sabbath random GIFs</b><br><br>I set up an integration with an open API (giphy.com) that will fetch a random Black Sabbath GIF when you load the page. 
                                 <br><br>In hindsight it might not have very clever to fetch and display <em>random</em> GIFs to your portfolio site. Especially considering the (awesome) nature of the band, but so far it's been ok. No GIFs on eaten bats thank god.
                             </p>
-                            <img id="api-gif" alt="Critical role GIF"></a>
+                            <img id="api-gif" alt="Black Sabbath GIF"></a>
                         </div>
                         <div class="portfolio-container" id="spellbook">
                             <p><b>Spellbook library</b><br><br>I created a spellbook library for my ttrpg group, providing functionality to add, remove, and display spells.

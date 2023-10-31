@@ -237,7 +237,7 @@ transition: none;
 transform: none;
 }
 
-#api-gif-container, #tic-tac-toe {
+#hagen, #spellbook, #etchy {
 flex-direction: row-reverse;
 }
 
@@ -357,7 +357,7 @@ h1 {
   width: 100%; 
 }
 
-#api-gif-container, #tic-tac-toe {
+#hagen, #spellbook, #etchy {
   flex-direction: column;
 }
 
