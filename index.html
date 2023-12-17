@@ -42,7 +42,7 @@
               <div id="career-content">
                 <p class="text">
                     I started off as a management consultant to primarily Fortune 500 companies, proceeded to a business consultant for SME companies, <b>to end up as a front-end developer?</b> 
-                    <br></br>After I graduated from my master's studies in Business Administration 2014, I started as a management consultant at EY. 
+                    <br></br>After I graduated from my master's studies in Business Administration 2014, I started as a management consultant at EY Advisory Services. 
                     I mostly worked in the consumer product sector with IT-related projects. Since I moved back to Kalmar three years ago, I've worked as a business advisor for smaller companies and focused more on sustainability. 
                     <br><br> I have worked as a project manager my whole career both at EY and my current employer and have a PRINCE2 Project Management certificate. 
                     Now I aim to combine the front-end developer role with my previous business and project management experience to hopefully bring a little extra value to the role.
@@ -59,7 +59,7 @@
             <div class ="content">
                 <div id="skills-content">
                     <p class="text">
-                        I’m confident with the front-end aspects of JavaScript (including Webpack, modules and SPA) as well as semantic HTML (such as WCAG), responsive CSS (including BEM methodology) and Git/GitHub. I’m currently focusing on learning Typescript and popular frameworks such as Bootstrap and React. 
+                        I’m confident with the front-end aspects of JavaScript (including Webpack, modules and SPA) as well as semantic HTML (such as WCAG), responsive CSS (including BEM methodology) and Git/GitHub. I’m currently focusing on learning Typescript and popular frameworks such as React and Bootstrap. 
                         I was tempted to start in this end but wanted to learn vanilla JavaScript and CSS first to really understand the fundamentals and improve my problem-solving skills.
                         <br><br>
                         My goal is to be a full-stack developer, so my next steps include NodeJS and MongoDB.
@@ -111,13 +111,20 @@
                         <br><br> Also, down in the bottom left corner you'll find a link to my GitHub profile if you're interested in reviewing some of the code or exploring more of my work.
                     </p> 
                     <div class="portfolio-list">
+                        <div class="portfolio-container" id="css-portfolio">
+                            <p><b>Popular designs from Dribble.com</b><br><br>
+                                Preparing for a future as a web developer, I aimed to replicate a few of the most popular designs on Dribble.com (as if they were mockups from a designer). 
+                                I didn’t have access to exact fonts, pixels, images, etc., but I strived to stay as true to the original as possible (changing a font or adding an image later down the line isn’t super hard after all). 
+                                <br><br>I used TypeScript in the presentation of the designs and I have consistently used BEM methodology in my styling. They are optimized for desktop.
+                            </p>
+                            <a href="https://alterot.github.io/css-portfolio" target="_blank"><img src="./images/css-portfolio.png" alt="CSS Portfolio"></a>
+                        </div>
                         <div class="portfolio-container" id="spellbook-ts">
                             <p><b>Spellbook library TypeScript</b><br><br>I created a new version of my spellbook library. This time using TypeScript and BEM methodology for the styling 
                                 (might as well rip those band aids of already since I’ll be using TypeScript going forward). I set up an asynchronous integration with fetch() to load a local JSON file with all spell data and display the relevant spells in accordance with selected filter.
                                 <br><br>The code is modular and easily maintainable (I hope) with separate functions to handle user interactions in a clear and structured way. 
-                                
                             </p>
-                            <a href="https://alterot.github.io/spellbook-ts/" target="_blank"><img src="./images/spellbook-ts.jpg" alt="Spellbook library TypeScript"></a>
+                            <a href="https://alterot.github.io/spellbook-ts/" target="_blank"><img src="./images/spellbook-ts.png" alt="Spellbook library TypeScript"></a>
                         </div>
                         <div class="portfolio-container" id="hagen">
                             <p><b>Website for a local cocktail bar</b><br><br>I developed a simple dynamic website for a local cocktail bar (very local, it is in fact, located on my porch). 
@@ -127,7 +134,7 @@
                         </div>
                         <div class="portfolio-container" id="api-gif-container">
                             <p><b>Black Sabbath random GIFs</b><br><br>I set up an integration with an open API (giphy.com) that will fetch a random Black Sabbath GIF when you load the page. 
-                                <br><br>In hindsight it might not have very clever to fetch and display <em>random</em> GIFs to your portfolio site. Especially considering the (awesome) nature of the band, but so far it's been ok. No GIFs on eaten bats thank god.
+                                <br><br>In hindsight it might not have been very clever to fetch and display a <em>random</em> GIF on your portfolio site. Especially considering the (awesome) nature of the band in question, but so far it's gone ok. No GIFs on eaten bats thank god.
                             </p>
                             <img id="api-gif" alt="Black Sabbath GIF"></a>
                         </div>
@@ -147,7 +154,8 @@
                             <a href="https://alterot.github.io/tic-tac-toe/" target="_blank"><img src="./images/tictactoe.png" alt="Tic-Tac-Toe"></a>
                         </div>
                         <div class="portfolio-container" id="etchy">
-                            <p><b>Etch-a-Scetch</b><br><br>A straightforward Etch-a-Sketch with different color modes and grid sizes.The purpose was primarily to improve my event handling and DOM manipulation skills.
+                            <p><b>Etch-a-Scetch</b><br><br>A straightforward Etch-a-Sketch with different color modes and grid sizes.The purpose was primarily to improve my event handling and DOM manipulation skills. 
+                                Currently based on mouse interaction, but if there is a strong demand (which is surely very likely) I'll add touch support as well to enable use on mobile devices.
                                 <br><br>It almost seems I have a thing for pink and turquoise now that I think about it.  
                             </p>
                             <a href="https://alterot.github.io/scetch/" target="_blank"><img src="./images/etchy.png" alt="Etch-a-Scetch"></a>
@@ -180,7 +188,6 @@
             <a href="mailto:max.alterot@gmail.com"><img src="./images/mail_white.png" alt="e-mail"></a>
             <a href="https://github.com/alterot" target="_blank"><img src="./images/github_white.png" alt="Github"></a>
         </section>    
-       
     </div>
 </body>
 </html>
