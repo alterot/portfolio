@@ -237,7 +237,7 @@ transition: none;
 transform: none;
 }
 
-#css-portfolio, #hagen, #spellbook, #etchy {
+#hagen, #css-portfolio, #spellbook, #etchy {
 flex-direction: row-reverse;
 }
 
