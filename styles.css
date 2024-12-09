@@ -328,12 +328,6 @@ html {
   font-size: 16px;
 }
 
-#main {
-  position: relative; 
-  top: auto; 
-  margin-top: 0; 
-}
-
 header 
 {
  display: none;
@@ -346,6 +340,10 @@ h1 {
 .skill-list {
   margin-bottom: 25px;
 }
+
+.content.visible {
+  max-height: none; 
+  }
 
 .image-container img {
   margin: 10px;
