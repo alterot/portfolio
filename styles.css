@@ -328,6 +328,17 @@ html {
   font-size: 16px;
 }
 
+#main {
+  position: relative; 
+  top: auto; 
+  margin-top: 0; 
+}
+
+header 
+{
+ display: none;
+}
+
 h1 {
   font-size: 3.5rem;
 }
